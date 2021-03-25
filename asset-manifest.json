@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portofolio.github.io/static/css/main.85efd007.chunk.css",
+    "main.js": "/portofolio.github.io/static/js/main.8d7127bb.chunk.js",
+    "main.js.map": "/portofolio.github.io/static/js/main.8d7127bb.chunk.js.map",
+    "runtime-main.js": "/portofolio.github.io/static/js/runtime-main.1c29f6d9.js",
+    "runtime-main.js.map": "/portofolio.github.io/static/js/runtime-main.1c29f6d9.js.map",
+    "static/js/2.a6e0dc31.chunk.js": "/portofolio.github.io/static/js/2.a6e0dc31.chunk.js",
+    "static/js/2.a6e0dc31.chunk.js.map": "/portofolio.github.io/static/js/2.a6e0dc31.chunk.js.map",
+    "static/js/3.1184c0ff.chunk.js": "/portofolio.github.io/static/js/3.1184c0ff.chunk.js",
+    "static/js/3.1184c0ff.chunk.js.map": "/portofolio.github.io/static/js/3.1184c0ff.chunk.js.map",
+    "index.html": "/portofolio.github.io/index.html",
+    "static/css/main.85efd007.chunk.css.map": "/portofolio.github.io/static/css/main.85efd007.chunk.css.map",
+    "static/js/2.a6e0dc31.chunk.js.LICENSE.txt": "/portofolio.github.io/static/js/2.a6e0dc31.chunk.js.LICENSE.txt",
+    "static/media/rizal.ce262d15.png": "/portofolio.github.io/static/media/rizal.ce262d15.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c29f6d9.js",
+    "static/js/2.a6e0dc31.chunk.js",
+    "static/css/main.85efd007.chunk.css",
+    "static/js/main.8d7127bb.chunk.js"
+  ]
+}
