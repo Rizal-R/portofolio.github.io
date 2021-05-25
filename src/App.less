@@ -1,28 +1,41 @@
  @import '~antd/dist/antd.less';
+ @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Noto+Sans+JP:wght@300&family=Oswald&family=Padauk&family=Poppins:wght@100;200;300&display=swap');
+ body{
+  font-family: 'KoHo', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Padauk', sans-serif;
+  font-family: 'Poppins', sans-serif;
+   color: #000;
+ }
  .site-layout-content {
   min-height: 280px;
   padding: 24px;
-  background: #bfbfbf36;
+  background: #d0d0d0;
   border-radius: 20px;
-  border: 1px solid #d0d0d0a3;
-}
 
+}
+.ant-layout {
+  background: #7d9bb7;
+}
+.ant-layout-footer {
+  color: #fff;
+  background: #f376bb;
+}
 .textHeight{
   font-size: 30px;
   font-weight: bold;
-  color: #7b7b7b;
-  text-align: center;
+  color: #eb2f96;
+
 }
 .img{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 50%;
-  margin: 25px;
+  width: 70%;
 }
 .textHeight-2{
   font-size: 15px;
   font-weight: bold;
   text-align: justify;
-  color: #6c7073;
+  color: #000;
 }
 #components-layout-demo-top .logo {
   float: left;
@@ -42,7 +55,9 @@
   padding: 50px;
   border-radius: 10px;
 }
-
+.ant-progress-text {
+color: #000;
+}
 .ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
   background-color: #1DA57A;
 }
@@ -51,7 +66,7 @@
 }
 
 .ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a, .ant-menu-dark .ant-menu-item > span > a {
-  color: #fff;
+  color: #000;
 }
 
 .ant-layout-header {
@@ -64,7 +79,7 @@
 
  .ant-anchor-wrapper {
   padding: 20px;
-  background: #f0f2f5;
+  background: #7d9bb7;
 }
 
  .ant-anchor {
@@ -98,25 +113,115 @@
   right: 5%;
   opacity: 1;
 }
+.ant-anchor-link-active > .ant-anchor-link-title {
+  color: #000;
+}
+.ant-anchor-link-title {
+  color:#eb2f96;
+}
 
+a:hover {
+  color: #fd1717;
+}
+.ant-card-bordered {
+  border: none;
+}
 .ant-card {
 border-radius: 10px;
-background: #c7c7c71f;
+background: #d0d0d0e8;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 10px;
+  color: #eb2f96;
+}
+.ant-card-meta-description {
+  color: #000;
 }
 .icon {
   font-size: 20px;
   border-radius: 50%;
-  background: #fff;
   width: 50px;
   height: 50px;
   padding: 13px;
   padding-left: 15px;
-  padding-top: 8px;
+  padding-top: 9px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
 }
+.instagram{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.whatsapp{
+  background: #00c56a;
+}
+.facebook{
+  background: #1890ff;
+}
+.mail{
+  background: #d23585;
+}
 .textIcon{
-
   padding-top: 23px;
   font-weight: bold;
   color: #adadad;
+}
+.ant-card-bordered .ant-card-cover {
+padding: 20px;
+}
+.card-about{
+  padding: 30px;
+  color: #000;
+  background: none;
+  box-shadow: none;
+}
+.textAbout{
+  text-align: justify;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .ant-card {
+    border-radius: 10px;
+    background: #d0d0d069;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    }
+    .responsive{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    .ant-layout-header {
+      height: 64px;
+      padding: 0 0px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 64px;
+      background: none; 
+    }
+    .reposivePortofolio{
+      padding: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .responsive{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+    }
+    .ant-layout-header {
+      height: 64px;
+      padding: 0 50px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 64px;
+      background: none; 
+    }
+    .reposivePortofolio{
+      padding: 50px;
+    }
 }
