@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portofolio.github.io/static/css/main.7511edc1.chunk.css",
+    "main.css": "/portofolio.github.io/static/css/main.e9dac986.chunk.css",
     "main.js": "/portofolio.github.io/static/js/main.124b8a6a.chunk.js",
     "main.js.map": "/portofolio.github.io/static/js/main.124b8a6a.chunk.js.map",
     "runtime-main.js": "/portofolio.github.io/static/js/runtime-main.f249d8d6.js",
@@ -10,7 +10,7 @@
     "static/js/3.c6e9c016.chunk.js": "/portofolio.github.io/static/js/3.c6e9c016.chunk.js",
     "static/js/3.c6e9c016.chunk.js.map": "/portofolio.github.io/static/js/3.c6e9c016.chunk.js.map",
     "index.html": "/portofolio.github.io/index.html",
-    "static/css/main.7511edc1.chunk.css.map": "/portofolio.github.io/static/css/main.7511edc1.chunk.css.map",
+    "static/css/main.e9dac986.chunk.css.map": "/portofolio.github.io/static/css/main.e9dac986.chunk.css.map",
     "static/js/2.b903d08d.chunk.js.LICENSE.txt": "/portofolio.github.io/static/js/2.b903d08d.chunk.js.LICENSE.txt",
     "static/media/antara.730222ed.png": "/portofolio.github.io/static/media/antara.730222ed.png",
     "static/media/dnet.d8e7f3fd.png": "/portofolio.github.io/static/media/dnet.d8e7f3fd.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.f249d8d6.js",
     "static/js/2.b903d08d.chunk.js",
-    "static/css/main.7511edc1.chunk.css",
+    "static/css/main.e9dac986.chunk.css",
     "static/js/main.124b8a6a.chunk.js"
   ]
 }
