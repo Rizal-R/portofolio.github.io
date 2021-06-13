@@ -30,7 +30,7 @@ function Portofolio() {
             >
               <Meta title={<span>Admin Customer Dnet</span>}
                 description={
-                  <span >
+                  <span className="textAbout">
                     <b>Teknologi</b>
                     <ul>
                       <li>React.js</li>
@@ -60,7 +60,7 @@ function Portofolio() {
             >
               <Meta title={<span>antara88 Tour and Travel</span>}
                 description={
-                  <span>
+                  <span className="textAbout">
                     <b>Teknologi</b>
                     <ul>
                       <li>Codeigniter</li>
@@ -94,7 +94,7 @@ function Portofolio() {
               <Meta title={<span>Company Profile Putra Dharma Kencana</span>}
                 description=
                 {
-                  <span>
+                  <span className="textAbout">
                     <b>Teknologi</b>
                     <ul>
                       <li>Codeigniter</li>
@@ -127,7 +127,7 @@ function Portofolio() {
               <Meta title={<span>Announcement Apps Dnet</span>}
                 description=
                 {
-                  <span>
+                  <span className="textAbout">
                     <b>Teknologi</b>
                     <ul>
                       <li>React.js</li>

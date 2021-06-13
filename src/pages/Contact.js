@@ -21,7 +21,7 @@ function Contact() {
 
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={12}>
-              <div className="textHeight" style={{ color: "#eb2f96", textAlign: "center" }}>FRONTEND DEVELOPER</div>
+              <div className="textHeight" style={{ color: "#867575", textAlign: "center" }}>FRONTEND DEVELOPER</div>
               <br />
               <div className="textHeight-2">
                 Nama saya Rizal dan saya lahir di Trenggalek , 26 November
@@ -32,65 +32,66 @@ function Contact() {
                 pemrograman.
               </div>
               <br />
-              <b>React.js</b>
-              <Progress percent={85}
-                strokeColor={{
-                  '0%': '#3aab9d',
-                  '100%': '#3aab9d',
-                }}
+              <div style={{ textAlign: "left", color: '#807b7b' }}>
+                <b>React.js</b>
+                <Progress percent={85}
+                  strokeColor={{
+                    '0%': '#3aab9d',
+                    '100%': '#3aab9d',
+                  }}
 
-                status="active"
-              />
-              <b>RestAPI</b>
-              <Progress percent={80}
-                strokeColor={{
-                  '0%': '#3aab9d',
-                  '100%': '#3aab9d',
-                }}
+                  status="active"
+                />
+                <b>RestAPI</b>
+                <Progress percent={80}
+                  strokeColor={{
+                    '0%': '#3aab9d',
+                    '100%': '#3aab9d',
+                  }}
 
-                status="active"
-              />
-              <b>Graphql</b>
-              <Progress percent={90} status="active" />
-              <b>Codeigniter</b>
-              <Progress percent={80} status="active" />
-              <b>Laravel</b>
-              <Progress percent={60}
-                strokeColor={{
-                  '0%': '#eb2f96',
-                  '100%': '#eb2f96',
-                }}
+                  status="active"
+                />
+                <b>Graphql</b>
+                <Progress percent={90} status="active" />
+                <b>Codeigniter</b>
+                <Progress percent={80} status="active" />
+                <b>Laravel</b>
+                <Progress percent={60}
+                  strokeColor={{
+                    '0%': '#eb2f96',
+                    '100%': '#eb2f96',
+                  }}
 
-                status="active"
-              />
-              <b>PHP, CSS, HTML</b>
-              <Progress percent={80}
-                strokeColor={{
-                  '0%': '#eb2f96',
-                  '100%': '#eb2f96',
-                }}
+                  status="active"
+                />
+                <b>PHP, CSS, HTML</b>
+                <Progress percent={80}
+                  strokeColor={{
+                    '0%': '#eb2f96',
+                    '100%': '#eb2f96',
+                  }}
 
-                status="active"
-              />
-              <b>Javascript</b>
-              <Progress percent={70}
-                strokeColor={{
-                  '0%': '#faad14',
-                  '100%': '#faad14',
-                }}
+                  status="active"
+                />
+                <b>Javascript</b>
+                <Progress percent={70}
+                  strokeColor={{
+                    '0%': '#faad14',
+                    '100%': '#faad14',
+                  }}
 
-                status="active"
-              />
-              <b>Jquery</b>
-              <Progress percent={80}
-                strokeColor={{
-                  '0%': '#faad14',
-                  '100%': '#faad14',
-                }}
+                  status="active"
+                />
+                <b>Jquery</b>
+                <Progress percent={80}
+                  strokeColor={{
+                    '0%': '#faad14',
+                    '100%': '#faad14',
+                  }}
 
-                status="active"
-              />
-
+                  status="active"
+                />
+              </div>
               <br />
               <br />
               <Row>
