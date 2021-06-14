@@ -16,12 +16,12 @@ function Contact() {
               <img className="img" src={rizal} alt="Img" />
               <br />
               <br />
-              <div className="textHeight">I'M RIZAL RUDIANTORO</div>
+              <div className="textHeight" style={{ color: "#fff" }}>I'M RIZAL RUDIANTORO</div>
 
 
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={12}>
-              <div className="textHeight" style={{ color: "#867575", textAlign: "center" }}>FRONTEND DEVELOPER</div>
+              <div className="textHeight" style={{ textAlign: "center" }}>FRONTEND DEVELOPER</div>
               <br />
               <div className="textHeight-2">
                 Nama saya Rizal dan saya lahir di Trenggalek , 26 November
