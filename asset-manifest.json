@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portofolio.github.io/static/css/main.f369cb69.chunk.css",
-    "main.js": "/portofolio.github.io/static/js/main.182e05a7.chunk.js",
-    "main.js.map": "/portofolio.github.io/static/js/main.182e05a7.chunk.js.map",
+    "main.css": "/portofolio.github.io/static/css/main.3b9367ec.chunk.css",
+    "main.js": "/portofolio.github.io/static/js/main.fc8f3a8a.chunk.js",
+    "main.js.map": "/portofolio.github.io/static/js/main.fc8f3a8a.chunk.js.map",
     "runtime-main.js": "/portofolio.github.io/static/js/runtime-main.ce11879b.js",
     "runtime-main.js.map": "/portofolio.github.io/static/js/runtime-main.ce11879b.js.map",
     "static/js/2.f5ccf7b2.chunk.js": "/portofolio.github.io/static/js/2.f5ccf7b2.chunk.js",
@@ -10,18 +10,21 @@
     "static/js/3.fa199843.chunk.js": "/portofolio.github.io/static/js/3.fa199843.chunk.js",
     "static/js/3.fa199843.chunk.js.map": "/portofolio.github.io/static/js/3.fa199843.chunk.js.map",
     "index.html": "/portofolio.github.io/index.html",
-    "static/css/main.f369cb69.chunk.css.map": "/portofolio.github.io/static/css/main.f369cb69.chunk.css.map",
+    "static/css/main.3b9367ec.chunk.css.map": "/portofolio.github.io/static/css/main.3b9367ec.chunk.css.map",
     "static/js/2.f5ccf7b2.chunk.js.LICENSE.txt": "/portofolio.github.io/static/js/2.f5ccf7b2.chunk.js.LICENSE.txt",
     "static/media/antara.730222ed.png": "/portofolio.github.io/static/media/antara.730222ed.png",
+    "static/media/dashby.6030f48e.png": "/portofolio.github.io/static/media/dashby.6030f48e.png",
     "static/media/dnet.d8e7f3fd.png": "/portofolio.github.io/static/media/dnet.d8e7f3fd.png",
     "static/media/dnet2.a4ef3990.png": "/portofolio.github.io/static/media/dnet2.a4ef3990.png",
+    "static/media/payment.3e942d7a.png": "/portofolio.github.io/static/media/payment.3e942d7a.png",
     "static/media/pdk.ece1c16c.png": "/portofolio.github.io/static/media/pdk.ece1c16c.png",
-    "static/media/rizal2.98df92e6.png": "/portofolio.github.io/static/media/rizal2.98df92e6.png"
+    "static/media/rizal2.98df92e6.png": "/portofolio.github.io/static/media/rizal2.98df92e6.png",
+    "static/media/xinau.6347b7a1.png": "/portofolio.github.io/static/media/xinau.6347b7a1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ce11879b.js",
     "static/js/2.f5ccf7b2.chunk.js",
-    "static/css/main.f369cb69.chunk.css",
-    "static/js/main.182e05a7.chunk.js"
+    "static/css/main.3b9367ec.chunk.css",
+    "static/js/main.fc8f3a8a.chunk.js"
   ]
 }
