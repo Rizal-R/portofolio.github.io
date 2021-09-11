@@ -4,6 +4,9 @@ import pdk from 'asset/pdk.png'
 import dnet from 'asset/dnet.png'
 import dnet2 from 'asset/dnet2.png'
 import antara from 'asset/antara.png'
+import payment from 'asset/payment.png'
+import dashby from 'asset/dashby.png'
+import xinau from 'asset/xinau.png'
 import DrawerDetail from './DrawerDetails';
 const { Content } = Layout;
 const { Meta } = Card;
@@ -30,9 +33,9 @@ function Portofolio() {
           </div>
         </Divider>
 
-        <Row gutter={34}>
+        <Row>
 
-          <Col xs={24} sm={24} md={24} lg={24} xl={6}>
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
             <Card
               style={{ width: "100%", textAlign: 'center' }}
               cover={<Image alt="example" src={dnet} />}
@@ -45,7 +48,8 @@ function Portofolio() {
                 } />
             </Card>
           </Col>
-          <Col xs={24} sm={24} md={24} lg={24} xl={6}>
+
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
             <Card
               style={{ width: "100%", textAlign: 'center' }}
               cover={<Image alt="example" src={antara} />}
@@ -58,8 +62,8 @@ function Portofolio() {
                 } />
             </Card>
           </Col>
-          <br />
-          <Col xs={24} sm={24} md={24} lg={24} xl={6}>
+
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
             <Card
               style={{ width: "100%", textAlign: 'center' }}
               cover={<Image alt="example" src={pdk} />}
@@ -74,7 +78,8 @@ function Portofolio() {
               />
             </Card>
           </Col>
-          <Col xs={24} sm={24} md={24} lg={24} xl={6}>
+
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
             <Card
               style={{ width: "100%", textAlign: 'center' }}
               cover={<Image alt="example" src={dnet2} />}
@@ -83,6 +88,48 @@ function Portofolio() {
                 description={
                   <span >
                     <Button className="detailButton" onClick={() => showDrawer(4, dnet2)}>Details</Button>
+                  </span>
+                }
+              />
+            </Card>
+          </Col>
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
+            <Card
+              style={{ width: "100%", textAlign: 'center' }}
+              cover={<Image alt="example" src={payment} />}
+            >
+              <Meta title={<span>Payment D~NET</span>}
+                description={
+                  <span >
+                    <Button className="detailButton" onClick={() => showDrawer(5, payment)}>Details</Button>
+                  </span>
+                }
+              />
+            </Card>
+          </Col>
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
+            <Card
+              style={{ width: "100%", textAlign: 'center' }}
+              cover={<Image alt="example" src={dashby} />}
+            >
+              <Meta title={<span>Dashby D~NET</span>}
+                description={
+                  <span >
+                    <Button className="detailButton" onClick={() => showDrawer(6, dashby)}>Details</Button>
+                  </span>
+                }
+              />
+            </Card>
+          </Col>
+          <Col xs={24} sm={24} md={24} lg={24} xl={6} style={{ padding: 10 }}>
+            <Card
+              style={{ width: "100%", textAlign: 'center' }}
+              cover={<Image alt="example" src={xinau} />}
+            >
+              <Meta title={<span>Xinau</span>}
+                description={
+                  <span >
+                    <Button className="detailButton" onClick={() => showDrawer(7, xinau)}>Details</Button>
                   </span>
                 }
               />

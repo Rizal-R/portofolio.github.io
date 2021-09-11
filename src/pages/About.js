@@ -16,11 +16,11 @@ function About() {
                   Freelance
                 </div>
                 <br />
-                <div className="textAbout">
+                <div className="textAbout text">
                   Saya mengawali karir di dunia IT sebagai freelance WEB Development, itu membuat saya lebih mengetahui wawasan yang lebih luas tentang dunia pogramming.
                   Saya suka merancang tampilan website secara visual dari gambar visual dengan menyalurkan ide-ide kreatif di setiap elemen yang ada di website.
                   Mengkonversi layout visual ke dalam bentuk HTML dan CSS untuk memastikan bisa dijalankan di web browser.
-              </div>
+                </div>
               </Card>
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={12}>
@@ -29,10 +29,10 @@ function About() {
                   Development
                 </div>
                 <br />
-                <div className="textAbout">
+                <div className="textAbout text">
                   Saya suka belajar dengan pemograman beberapa framework website progamming, salah satunya untuk frontend mengunakan react.js dan codeigniter dan laravel untuk fullstack.
                   Belajar pemograman adalah impian saya menuju kesuksesan dan berlatih berfikir secara logis.
-              </div>
+                </div>
               </Card>
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={12}>

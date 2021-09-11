@@ -90,7 +90,61 @@ function DrawerDetail(props) {
             </ul>
         </span>
     )
-    console.log(props.id)
+    const data5 = () => (
+        <span>
+            <b>Teknologi</b>
+            <ul>
+                <li>React.js</li>
+                <li>Graphql</li>
+                <li>Ant Design</li>
+                <li>Javascript</li>
+                <li>JWT Token</li>
+            </ul>
+            <b>My Responsibilities</b>
+            <br />
+            <ul>
+                <li>Convert PDF to HTML & CSS</li>
+                <li>Create feature Login</li>
+                <li>Create CRUD</li>
+                <li>Create feature pagination dan filter</li>
+                <li>Build and maintain issues on the frontend</li>
+            </ul>
+        </span>
+    )
+    const data6 = () => (
+        <span>
+            <b>Teknologi</b>
+            <ul>
+                <li>React.js</li>
+                <li>Graphql</li>
+                <li>Ant Design</li>
+                <li>Javascript</li>
+                <li>ReCharts</li>
+            </ul>
+            <b>My Responsibilities</b>
+            <br />
+            <ul>
+                <li>Fix request charts on frontend</li>
+                <li>Create Routes acces user menu API_INPUT</li>
+            </ul>
+        </span>
+    )
+    const data7 = () => (
+        <span>
+            <b>Teknologi</b>
+            <ul>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <b>My Responsibilities</b>
+            <br />
+            <ul>
+                <li>add request menu training and layouting</li>
+            </ul>
+        </span>
+    )
+
     const getId = () => {
         if (props.id === 1) {
             return data1()
@@ -103,6 +157,15 @@ function DrawerDetail(props) {
         }
         if (props.id === 4) {
             return data4()
+        }
+        if (props.id === 5) {
+            return data5()
+        }
+        if (props.id === 6) {
+            return data6()
+        }
+        if (props.id === 7) {
+            return data7()
         }
     }
     return (

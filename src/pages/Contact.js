@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Row, Col, Progress } from 'antd';
-import rizal from 'asset/rizal.png';
+import rizal from 'asset/rizal2.png';
 
 import { WhatsAppOutlined, FacebookFilled, InstagramOutlined } from '@ant-design/icons';
 const { Content } = Layout;
@@ -12,11 +12,11 @@ function Contact() {
       <Content id="Contact" className="responsive">
         <div className="site-layout-content">
           <Row gutter={24}>
-            <Col xs={24} sm={24} md={24} lg={24} xl={12} style={{ textAlign: "center" }}>
+            <Col xs={24} sm={24} md={24} lg={24} xl={12} style={{ textAlign: "center", padding: 30 }}>
               <img className="img" src={rizal} alt="Img" />
               <br />
               <br />
-              <div className="textHeight" style={{ color: "#fff" }}>I'M RIZAL RUDIANTORO</div>
+              <div className="textHeight" style={{ color: "" }}>I'M RIZAL RUDIANTORO</div>
 
 
             </Col>

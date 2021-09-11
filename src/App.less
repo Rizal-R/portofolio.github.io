@@ -11,17 +11,20 @@
  .site-layout-content {
   min-height: 280px;
   padding: 24px;
-  background: #ffffff26;
+  //background: #ffffff26;
+  background: #f7f6f6;
    border-radius: 20px;
   border: 1px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .ant-layout {
-  background: #141131;
+  //background: #141131;
+  background: linear-gradient(to right, #ffffff 0%, #82818129 90%);
 }
 .ant-layout-footer {
-  color: #cac8c8;
-  background: #39374ea6;
+  color: #ffff;
+  background: #a9a6a6;
 }
 .textHeight{
   font-size: 30px;
@@ -57,7 +60,7 @@
   border-radius: 10px;
 }
 .ant-progress-text {
-color: #fff;
+color: #000;
 }
 .ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
   background-color: #1DA57A;
@@ -80,7 +83,8 @@ color: #fff;
 
  .ant-anchor-wrapper {
   padding: 20px;
-  background: #141131;
+  // background: #141131;
+  background: linear-gradient(to right, #ffffff 0%, #82818100 90%)
 }
 
  .ant-anchor {
@@ -131,7 +135,8 @@ a:hover {
 border-radius: 10px;
 // background: #c1bfce12;
 // box-shadow: 0 0px 3px 0 rgb(255 94 16);
-background: #141131;
+// background: #141131;
+background: transparent;
 }
 .ant-card-meta-detail > div:not(:last-child) {
   margin-bottom: 10px;
@@ -182,13 +187,14 @@ padding: 20px;
 }
 .textAbout{
   text-align: justify;
-  color: #989898;
+  color: #000;
 }
 .detailButton{
   color: #fff;
   background: #ff5e10;
    border: none;
-   width: 80%;
+   width: 40%;
+   border-radius: 25px;
 }
 @media only screen and (max-width: 600px) {
   .ant-card {
@@ -196,8 +202,11 @@ padding: 20px;
     // background: #d0d0d069;
     // background: #c1bfce12;
     // box-shadow: 0 0px 3px 0 rgb(255 94 16);
-    background: #141131;
+    background: transparent;
     margin-bottom: 20px;
+    }
+    .img{
+      width: 90%;
     }
     .responsive{
       padding-left: 10px;
@@ -236,12 +245,25 @@ padding: 20px;
     }
 }
 .ant-drawer-header {
-  background: #141131;
+  background: #ececec45;
 }
 .ant-drawer-title {
-color: #fff;
+color: #000;
 }
 
 .ant-drawer-close {
-color: #fff;
+color: #000;
+}
+.text {
+  // text-transform: uppercase;
+  background: linear-gradient(to right, #5a4848 0%, #ff0000 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+  text-decoration: none;
+  background: #ddddea;
+}
+.ant-progress-inner {
+  background-color: #eaeaea;
 }
